@@ -109,6 +109,34 @@
     * Para desenvolver um protótipo
     * Para descobrir importantes detalhes que outros métodos omitem.
     
+* Engenharia de requisitos
+    * Importância
+        * vislumbra a qualidade do produto final por meio do alcance da qualidade nas etapas intermediárias do processo de desenvolvimento.
+        * permite o desenvolvimento de sistemas de software que satisfaçam a todos os stakeholders
+    * Abrangência
+        * a engenharia de requisitos preocupa-se com a descoberta, o desenvolvimento, o rastreamento, a análise, o teste, a comunicação e a gestão de requisitos com o objetivo de definir o sistema em diferentes níveis de abstração.
+            1. Todos os requisitos relevantes são explicitamente conhecidos e compreendidos com o necessário nível de detalhe.
+            2. É alcançado entre as partes interessadas, um acordo em relação aos requisitos.
+            3. Todos os requisitos estão devidamente documentados, em conformidade com os formatos e as regras estabelecidos.
+    * Fases
+        * Abrange aspectos de elaboração, documentação e manutenção dos requisitos durante todo o ciclo de vida de desenvolvimento de software.
+        * <img src = "processo.png" />
+* Gestão de requisitos
+    * O que é: processo que estabelece e mantém acordos entre o cliente e a equipe do projeto sobre a evolução dos requisitos.
+    * Objetivo: monitorar o desenvolvimento e implementação dos requisitos, registrando seus atributos, status e dependências para controlar o andamento e as mudanças realizadas e manter a rastreabilidade.
+    * A gestão envolve ainda a priorização de requisitos que normalmente ocorre na fase de análise de requisitos.
+    * Atividades principais:
+        * <img src = "atividades-principais.png" /> 
+    * Atributos de requisitos
+        * São dados recolhidos ao longo do processo de análise de requisitos, desde a especificação até a aprovação da especificação final ou posteriores mudanças até a implementação dos requisitos.
+        * <img src = "atributos.png" /> 
+    * Tipos de atributos
+        * <img src = "atributo-tipo1.png" /> 
+        * <img src = "atributo-tipo2.png" />
+        * <img src = "atributo-tipo3.png" />
+        * <img src = "atributo-tipo4.png" />
+        * <img src = "atributo-tipo5.png" />
+        
 
 
 
