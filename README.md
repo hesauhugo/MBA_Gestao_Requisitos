@@ -136,7 +136,104 @@
         * <img src = "atributo-tipo3.png" />
         * <img src = "atributo-tipo4.png" />
         * <img src = "atributo-tipo5.png" />
+
+
+## Aula 03        
+### Negociação e priorização de requisitos
+
+* Análise e negociação de requisitos
+    * A negociação é um processo social básico que tem como objetivo a resolução de conflitos
+    * Objetivo:
+        * Estabelecer uma aceitação sobre um conjunto de requisitos completos e consistente4s onde devem ser resolvidas quaisquer ambiguidades.
+        * Durante este processo são descobertos requisitos que faltam, conflitos entre requisitos ( o que exige que se tomem decisões atendendo aos benefícios face aos custos), ambiguidade, sobreposições, requisitos irrealistas, etc.
+* Exemplo
+    * Uma parte interessada pede: quero que a aplicação seja reiniciada, no caso de uma falha ser detectada
+    * Enquanto outra parte interessada pede: quero que a aplicação continua a funcionar, caso ocorra uma falha.
+    * <img src = "processo-negociacao.png" />
+* Processo de negociação
+    * pré negociação
+        * Definir o problema.
+        * Identificar as partes interessadas.
+        * Levantar os objetivos das partes interessadas e analisar os possíveis conflitos.
+        * Apresentar alternativas para cada conflito identificado.
+    * negociação
+        * procurar soluções mutuamente benéficas que sejam aceitáveis para todas as partes
+        * Estabelecer critérios de avaliação para comparar o mérito das diferentes alternativas
+        * chegar a um acordo entre as partes interessadas.
+    * pós-negociação
+        * analisar e avaliar o resultado da negociação
+        * sugerir renegociação, se necessário
+        * encontrar uma alternativa que aumente a satisfação de uma das partes sem baixar a das outras
+        * obter a aprovação das partes interessadas.
+
+* Negociação
+    * Uma negociação pode ser resolvida de duas vias
+        * Consenso ou unanimidade
+        * Maioria
+        * <img src = "comparacao-consenso-maioria.png" />
+    * Ganho-perda
+        * <img src = "ganho-perda.png" />
+    * Estratégias
+        * <img src = "estrategias-negociacao.png" />
         
+* Priorização de requisitos
+    * Prioridade é o direito relativo que um requisito tem de utilizar recursos (tempo, esforço humano, recursos financeiros, espaço ...) limitados ou escassos
+    * Os requisitos geralmente são implementados em etapas e a priorização ajuda a definir quais devem ser implementados primeiro
+    * Identifica e ordena requisitos fundamentais, segundo um ou vários critérios de priorização.
+    * É um processo contínuo que pode mudar ao longo do desenvolvimento do projeto
+    * Dificuldades
+        * desejo de classificar tudo com alta prioridade
+        * clientes não reconhecem a necessidade de se fazer escolhas
+        * partes interessadas evitam escolhas difíceis
+        * priorização ser influenciada intenciona ou não pela equipe de desenvolvimento que pode superestimar a dificuldade ou complexidade de implementação de certos requisitos.
+    * Etapas
+        * Preparação: etapa na qual uma pessoa estrutura os requisitos de acordo com o método de priorização utilizado. Uma equipe é escolhida e recebe as informações necessárias
+        * Execução: nesta etapa os decisores realizam a priorização utilizando para isso as informações concebidas na etapa anterior
+        * Apresentação: consiste na apresentação dos resultados aos envolvidos. Alguns métodos de priorização utilizam diferentes formas para os cálculos das prioridades, mas estes devem ser realizados antes da apresentação dos resultados.
+    * Tarefas
+        * Decidir sobre os requisitos fundamentais para o sistema
+        * Estabelecer uma ordem para a implementação dos requisitos
+        * Implementar apenas uma parte dos requisitos e conseguir, ainda assim, um produto que satisfaça os usuários
+        * comparar o benefício de cada requisito com o custo
+        * estimar a satisfação do cliente em relação ao produto
+        * tratar requisitos contraditórios e negociá-los com as partes interessadas.
+    * Critérios
+        * <img src = "criterio-priorizacao.png" />
+    * Métodos 
+        * métodos baseados em valores atribuídos aos requisitos - absoluta ou relativa
+            * absoluta: os valores são atribuídos a cada requisito sem levar em consideração os demais
+            * Relativa: os valores são atribuídos aos requisitos comparativamente aos demais
+        * métodos de negociação - a prioridade de um requisito pode ser determinada através do consenso entre diferentes stakeholders
+    * Técnicas
+        * TOP 10
+            * cada parte interessada tem que escolher, entre o conjunto de requisitos candidatos, aqueles dez que considera ser mais importante, sem estabelecer ordem interna entre eles.
+            * apropriada quando existem muitas partes interessadas, especificamente quando a todos eles pode-se atribuir níveis de importância semelhantes.
+        * Classificação
+            * classifica-se os requisitos por meio de uma escala ordinal. O requisito mais importantes fica na primeira posição, o segundo na segunda e assim por diante.
+            * Cada requisito tem uma posição única
+            * funciona bem quando há apenas uma pessoa a usá-la
+        * Agrupamento
+            * distribui-se os requisitos em diferentes grupos, normalmente 3 grupos (ex. críticos, desejáveis e opcionais; ou esperados, normais e fascinantes)
+            * método MoSCoW usa 4 grupos (Must,Should,Could e Wont)
+            * Há a possibilidade de apenas 2 grupos( obrigatórios e desejados)
+            * É uma das técnicas mais utilizadas.
+        * Teste das 100 unidades
+            * cada parte interessada distribui 100 unidades (ex. pontos ou dólares) entre os requisitos candidatos.
+            * há limitações se o número de requisitos é muito elevado ( neste caso deve-se considerar um número maior de unidades, ex. 1000 unidades)
+            * é aconselhável o uso de uma ferramenta (planilha) para garantir que o total de unidades distribuídas seja exatamente 100
+        * Processo hierárquico e analítico (AHP)
+            * método sistemático para lidar com problemas de decisão complexos
+            * multicritério para tomadas de decisões em cenários que vários fatores têm importâncias relativas diferentes.
+            * Compara-se todos os pares de requisitos, usando uma escala de 1 a 9, para indicar quão prioritário é um requisito em relação ao outro
+            * utiliza-se uma matriz bidimensional
+    * Escolha da técnica
+        * deve-se usar a técnica mais simples de priorização
+        * as técnicas mais sofisticadas devem ser reservadas para situações mais delicadas que exijam uma análise mais minuciosa
+        * pode-se combinar técnicas, por ex. combinar agrupamento com classificação, primeiro os requisitos são divididos em grupos prioridades diferentes e depois classificados, ordenados dentro de cada grupo.
+
+
+
+
 
 
 
