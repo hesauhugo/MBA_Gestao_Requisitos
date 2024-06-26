@@ -231,6 +231,122 @@
         * as técnicas mais sofisticadas devem ser reservadas para situações mais delicadas que exijam uma análise mais minuciosa
         * pode-se combinar técnicas, por ex. combinar agrupamento com classificação, primeiro os requisitos são divididos em grupos prioridades diferentes e depois classificados, ordenados dentro de cada grupo.
 
+## Aula 04
+
+### Evolução e rastreabilidade de requisitos
+
+* Evolução de requisitos
+    * Os requisitos são evolutivos, ou seja, durante o ciclo de vida de um sistema podem ocorrer solicitações de mudanças ou inclusões de requisitos (tanto técnicos quanto não técnicos). A condição de evolução de um requisito deve-se:
+        * à identificação de não conformidade com as solicitações;
+        * à ocorrência de erros (bugs) nos requisitos implementados;
+        * à ausência de um detalhamento consistente dos requisitos originais
+        * às alterações no contexto do projeto (datas, abrangência, alterações na legislação, etc.)
+* Gestão de mudanças
+    * Desenvolvimento iterativo/incremental
+    * Novos conjuntos de requisitos, detalhados a cada iteração
+    * Mudanças em estratégias de negócio motivadas pelas mais diversas fontes: mercado, cultura leis etc.
+* Fatores responsáveis por mudanças - exemplos.
+    * Mudanças nos negócios - alterações das necessidades do cliente que identificam novos requisitos ou invalidam requisitos formalizados anteriormente;
+    * Aumento da complexidade dos requisitos - identificando após investigação detalhada do requisito
+    * Alteração estrutural do requisito - melhor integração ao sistema ou ajuste na estrutura original que não configurava uma solução correta
+    * Evolução da percepção do sistema pelos fornecedores de requisitos - após a visualização de protótipos ou execução dos primeiros testes de validação
+    * Descoberta de falhas no entendimento e na especificação de requisitos - necessidade de correção
+* Gestão de mudanças - objetivos
+    * Garantir que os artefatos do sistema alcançam e mantêm uma estrutura definida através do seu ciclo de vida;
+    * Definir procedimentos e documentação necessários para realizar modificações;
+    * Prover os mecanismos necessários para conduzir mudanças de uma maneira controlada.
+* Gestão de mudanças -etapas
+    * reconhecer que o processo de mudança é inevitável e se planejar para isso
+    * criar baselines para os requisitos
+    * estabelecer um canal simples para controlar as mudanças
+    * usar um sistema de controle de mudanças para captura-las
+    * hierarquizar o gerenciamento de mudanças
+* Gestão de mudanças - processos
+    * <img src="gestao-mudanca-processo.png"/>
+    * deve ser definido um documento padrão para que mudanças possam ser solicitadas
+    * esse documento normalmente se chama solicitação de mudança (SM, Em inglês CR)
+    * deve ser formada um comitê de controle de mudanças (CCM) que decidirão se uma  mudança será ou não implementada
+    * o processo é necessário para garantir que apenas mudanças avaliadas e aprovadas sejam realizadas
+* Gestão de mudanças - CCM ou CCB
+    * CCM - Comitê de controle de Mudanças
+    * CCB - Change Control Board
+    * Grupo integrado por representantes dos stakeholders
+    * Discussão e avaliação das mudanças propostas e tomada de decisão sobre elas e seu encaminhamento
+    * Reuniões periódicas
+    * Decisões essencialmente gerenciais
+* Gestão de mudanças - análise de impacto
+    * Mudança de grande impacto devem ser comunicadas aos stakeholder envolvidos
+    * Análises de custo x benefício produzidas pelos stakeholders
+    * priorização de mudanças
+    * mudanças pode ser rejeitadas se o ccm perceber que o custo será mais caro que o benefício percebido
+    * por questões de eficiência, algumas solicitações de mudança podem ser agrupadas por tema, subsistema ou área de negócio.
+* Gestão de mudanças
+    * Algumas informações que podem estar incluídas em uma SM
+        * Identificação única
+        * Solicitante
+        * Sistema/Projeto
+        * Item a ser modificado
+        * Classificação (melhoria, correção de defeito, outra)
+        * Prioridade
+        * Descrição
+        * Situação ( nova, atribuída, finalizada, verificada, fechada)
+    * O processo de gestão de mudanças requer a implementação de um conjunto de tarefas que propiciem o adequado gerenciamento e mapeamento entre as dependências existentes dos requisitos e as solicitações de modificações ou inclusões.
+* Rastreabilidade de requisitos
+    * Rastreabilidade é comumente usado para descrever a referência para aum grupo coletivo de requisitos baseados em seus relacionamentos, fazendo uso de relacionamentos sobre os requisitos, projeto e implementação de um sistema para prover a qualidade, além de estabelecer mecanismos que podem ser usados para avaliar o impacto de mudanças no sistema. 
+    * "Um requisito é rastreável se é possível descobrir quem sugeriu o requisito (a fonte), por que o requisito existe (rationale), que outros requisitos estão relacionados a ele (dependência entre requisitos) e como o requisito se relaciona com outras informações tais como desenho do sistema, implementação e documentação do usuário"(Sommerville, 98)
+    * Os relacionamentos são estabelecidos entre requisitos e artefatos de software usando-se elos:
+        * Elos - elementos necessários para estabelecer a rastreabilidade
+        * Artefatos - modelos, documentos, código fonte, sequências de testes, requisitos ou executáveis.
+* Rastreabilidade de requisitos - vantagens
+    * Ajuda a estimar variações em cronogramas e em custos do projeto
+    * pode auxiliar gerentes de projetos a
+        * verificar a alocação de requisitos a componentes de software
+        * resolver conflitos entre requisitos
+        * verificar requisitos nos processos de testes
+        * corrigir defeitos através de identificação do componente de origem do erro
+        * validar o sistema junto aos clientes
+        * analisar o impacto na evolução dos sistemas
+        * prever custos e prazos
+        * gerenciar riscos e reuso de componentes
+* Rastreabilidade de requisitos - classificação
+    * A capacidade de rastrear um requisito até seus refinamentos é definida como
+        * forwards - rastrear para frente
+        * backwards - rastrear para trás
+    * Rastreabilidade de frente-para (Forward-to traceability): rastreabilidade de origens (requisitos de clientes, no nível de sistema, etc.) para requisitos
+    * Rastreabilidade de frente-de (Forward-from traceability): rastreabilidade de requisitos para especificação do projeto
+    * Rastreabilidade de trás-para (Backward-to traceability): rastreabilidade de especificações de projeto para requisitos.
+    * Rastreabilidade de trás-de (Backward-from traceability): rastreabilidade de requisitos para suas origens (requisitos de clientes, requisitos no nível de sistema, etc.).
+    * sobre os tipos de rastreabilidade basicamente existem duas classificações gerais
+        * rastreabilidade horizontal e vertical
+        * pré e pós-rastreabilidade
+    * Rastreabilidade horizontal é a rastreabilidade entre diferentes versões ou variações de requisitos, ou outros artefatos, em uma particular fase do ciclo de vida.
+    * Rastreabilidade vertical é realizada entre requisitos e artefatos produzidos pelo processo de desenvolvimento ao longo do ciclo de vida do projeto.
+    * <img src="rastreabilidade-horizontal-vertical.png"/>
+    * Sobre os tipos de rastreabilidade basicamente exitem duas classificações gerais
+        * rastreabilidade horizontal e vertical
+        * pré e pós-rastreabilidade
+    * Pré-rastreabilidade - está concentrada no ciclo de vida dos requisitos antes de serem incluídos na especificação de requisitos.
+    * Pós-rastreabilidade - está concentrada no ciclo de vida dos requisitos após serem incluídos na especificação de requisitos.
+    * <img src="pre-pos-rastreabilidade.png"/>
+* Rastreabilidade de requisitos - técnicas
+    * Referência cruzada (primeira técnica - 1989)
+    * Matrizes
+    * Dependência de frases chaves
+    * integração de documentos
+    * hipertextos
+    * grafos
+    * etc
+* Rastreabilidade de requisitos - tipos de elos
+    * <img src="rastreabilidade-tipo-elos.png"/>    
+* Rastreabilidade de requisitos - matriz
+    * <img src="rastreabilidade-matriz.png"/>
+    * <img src="rastreabilidade-matriz-exemplo.png"/>
+    * <img src="rastreabilidade-matriz-exemplo2.png"/>
+    
+## Aula 05
+
+
+
 
 
 
