@@ -1,4 +1,8 @@
 ## Gestão de Requisitos de Software
+## Livros recomendados pelo professor
+
+* PAULA FILHO, Wilson de Pádua. Engenharia de Software: Produtos. 4. ed. Rio de Janeiro: LTC, 2019. E-book. ISBN 9788521636724.
+* REINEHR, Sheila. Engenharia de requisitos. Porto Alegre: Sagah, 2020. E-book. ISBN 9786556900674.
 
 ## Aula 01
 * Requisitos de software, definição, classificação e elicitação
@@ -344,6 +348,49 @@
     * <img src="rastreabilidade-matriz-exemplo2.png"/>
     
 ## Aula 05
+### Validação de requisitos
+* Validação de requisitos
+    * É o estágio final da engenharia de requisitos
+    * concentra-se na checagem final da documentação de requisitos
+    * concentra-se na resolução dos requisitos que estão incompletos ou inconsistentes
+    * procura responder se os requisitos levantados estão ou não corretos
+    * verifica se os requisitos definem o sistema que o cliente realmente deseja
+* Validação de requisitos - importância
+    * a validação dos requisitos é importante para garantir que as necessidades dos clientes sejam atendidas
+    * a não validação dos requisitos pode acarretar em implementação de requisitos incompletos.
+    * a validação pode ajudar a diminuir ou a evitar o custo com erros de requisitos.
+* Validação de requisitos - execução
+    * Validação dos requisitos
+    * validação dos artefatos gerados em outras fases do desenvolvimento sobre os requisitos, servindo assim como base para avaliar se os artefatos gerados correspondem aos requisitos levantados.
+* Modelo de processo - revisor
+    * Revisor - responsável por executar a revisão de requisitos e das associações de artefatos relacionados aos requisitos. Sua atividade é dividida em duas partes, a validação dos requisitos no processo de engenharia de requisitos, como por exemplo, os protótipos de interface e a validação dos artefatos, gerados nos processos sucessores, com os requisitos levantados. Esse trabalho permite descobrir se a implementação da aplicação está correspondendo à especificação de requisitos de software.
+* Validação de requisitos
+    * Entradas: documento de requisitos, padrões organizacionais e o conhecimento organizacional
+    * Saídas: lista de problemas e ações aceitas para resolver os problemas listados.
+    * <img src="validacao-requisitos.png"/>
+* Validação de requisitos - atividades
+    * Definir ações - as ações que serão aplicadas ao plano de revisão devem ser determinadas. essas ações servem para determinar a natureza do trabalho que será executado na revisão
+    * Definir plano de revisão - deve ser selecionada a equipe de revisão e escolhidos o lugar e as datas para a reunião da revisão
+    * Distribuir documentação - Os documentos de requisitos e outros documentos relevantes são distribuídos para os membros da equipe de revisão
+    * corrigir especificações de requisitos - A especificação de requisitos e outros documentos devem ser corrigidos com base nos documentos revisados pela equipe
+    * listar problemas - os problemas encontrados nos requisitos devem ser listados
+    * Validar artefatos versus casos de uso - Os artefatos gerados durante a implementação devem ser validados com os casos de uso levantados na elicitação. todos os artefatos gerados devem atender as necessidades levantadas em um determinado caso de uso e todos os casos de uso devem possuir pelo menos um artefato que realize a funcionalidade desse caso de uso.
+    * validar interfaces versus casos de uso - os protótipos de interface devem ser validados com os casos de uso. Isso permite determinar se as necessidades dos usuários e da aplicação estão sendo atendidas antes que os próximos processos possam utilizar as interfaces.
+    * Executar checklists - Os na validação são concentrados na checagem final do documento de checklists requisitos e nos requisitos do sistema, devendo localizar inconsistência e requisitos incompletos podendo, também, definir padrões de qualidade a serem utilizados.
+* validação de requisitos - o que validar (sugestão)
+    * validade: o sistema possui as funções para suprir as necessidades dos usuários
+    * completude: foram incluídas todas as funções requisitadas pelo cliente?
+    * consistência: existe algum requisito conflitante?
+    * não ambíguos: todos estão descritos de forma clara e objetiva?
+    * verificação: os requisitos podem ser verificados?
+    * rastreáveis: os requisitos tem definidos: a origem? - as interdependências entre os requisitos? - os relacionamentos com os diagrams de projeto e componentes de implementação?
+# Aula 6
+* <a href="cmmi-dev_1-2_portuguese.pdf">CMMI</a>
+* <a href="MPS.BR_Guia_Geral_Software_2016.pdf">MPS</a>
+* <img src="modelo-processo.jpg"/>
+* <a href="uma-estrategia-para-implantacao-de-uma-gerencia-de-requisitos.pdf">Artigo gerencia requisitos</a>
+
+
 
 
 
